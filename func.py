@@ -24,6 +24,6 @@ def handler(ctx, data: io.BytesIO=None):
     print("Exiting Python Hello World handler", flush=True)
     return response.Response(
         ctx, response_data=json.dumps(
-            {"message": "Hello {0}".format(name)}),
+            {"message": "Hello Good Morning {0}".format(name)}),
         headers={"Content-Type": "application/json"}
     )
